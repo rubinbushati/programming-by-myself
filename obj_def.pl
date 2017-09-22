@@ -2,11 +2,13 @@ use strict;
 use diagnostics;
 use warnings;
 
-print"Whats your age ";
-my $age = <STDIN>;
 
-if($age == 18){
-	print"You can drive a car\n";
+print"Whats your password ";
+my $password = <STDIN>;
+
+
+if($password == 19283){
+	print"Welcome to your account!\n";
 } else {
-	print"You can't drive\n";
+	print"The password may be invalid!\n";
 }
